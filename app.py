@@ -11,4 +11,4 @@ if img is not None:
   st.image(img,caption='Uploaded Image')
   if st.button('PREDICT'):
     op = pytesseract.image_to_string(img_read)
-    st.write(op) 
+     st.write(op) 
